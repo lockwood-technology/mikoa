@@ -1,0 +1,26 @@
+
+{ "name": "@lockwood-technology/mikoa",
+  "version": "1.0.0",
+  "description": "Tanzania Region, district and wards package for nodejs",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+  },
+  "keywords": [
+    "Mikoa",
+    "Mitaa",
+    "Wilaya",
+    "Kata"
+  ],
+  "author": "Francis Mwakatumbula",
+  "license": "MIT",
+  "dependencies": {
+    "json-find": "^2.0.8",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "^8.10.0"
+  }
+}
