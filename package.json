@@ -1,6 +1,6 @@
 
 { "name": "mikoa",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Tanzania Region, district and wards package for nodejs",
   "main": "main.js",
   "type": "module",
