@@ -1,6 +1,6 @@
 
-{ "name": "@lockwood-technology/mikoa",
-  "version": "1.0.0",
+{ "name": "mikoa",
+  "version": "1.0.1",
   "description": "Tanzania Region, district and wards package for nodejs",
   "main": "main.js",
   "type": "module",
@@ -10,7 +10,10 @@
     "Mikoa",
     "Mitaa",
     "Wilaya",
-    "Kata"
+    "Kata",
+    "Tanzania",
+    "Mikoa ya Tanzania",
+    "Wilaya za Mikoa Tanzania"
   ],
   "author": "Francis Mwakatumbula",
   "license": "MIT",
