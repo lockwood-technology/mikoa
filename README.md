@@ -1,7 +1,7 @@
 ### Mikoa
 
 [![npm version](https://img.shields.io/npm/v/mikoa.svg?style=flat-square)](https://www.npmjs.org/package/mikoa)
-[![code coverage](https://img.shields.io/coveralls/mzabriskie/mikoa.svg?style=flat-square)](https://coveralls.io/r/mzabriskie/mikoa)
+[![Coverage Status](https://coveralls.io/repos/github/lockwood-technology/mikoa/badge.svg?branch=main)](https://coveralls.io/github/lockwood-technology/mikoa?branch=main)
 [![install size](https://packagephobia.now.sh/badge?p=mikoa)](https://packagephobia.now.sh/result?p=mikoa)
 [![npm downloads](https://img.shields.io/npm/dm/mikoa.svg?style=flat-square)](http://npm-stat.com/charts.html?package=mikoa)
 
