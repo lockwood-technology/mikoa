@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/mikoa.svg?style=flat-square)](https://www.npmjs.org/package/mikoa)
 [![Coverage Status](https://coveralls.io/repos/github/lockwood-technology/mikoa/badge.svg?branch=main)](https://coveralls.io/github/lockwood-technology/mikoa?branch=main)
+
 [![install size](https://packagephobia.now.sh/badge?p=mikoa)](https://packagephobia.now.sh/result?p=mikoa)
 [![npm downloads](https://img.shields.io/npm/dm/mikoa.svg?style=flat-square)](http://npm-stat.com/charts.html?package=mikoa)
 
@@ -77,7 +78,7 @@ console.log('All regions', {regions})
 ```
 ## Output
 
-```json
+```Json
 [
   { id: '1', name: 'ARUSHA' },
   { id: '2', name: 'DAR ES SALAAM' },
@@ -141,8 +142,7 @@ console.log('District by region', {districts})
 ```
 Output
 
-```json
-District by region
+```Json
  [
     { id: '81', name: 'BUNDA' },
     { id: '82', name: 'BUTIAMA' },
