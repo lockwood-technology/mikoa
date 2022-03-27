@@ -4,14 +4,16 @@ on:
     types: [published]
 jobs:
   build:
-    runs-on: ubuntu-latest
+    name: Build, lint, and test on Node ${{ matrix.node }} and ${{ matrix.os }}
+
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
           node-version: 14
           registry-url: https://registry.npmjs.org/
-      - run: npm install
+      - run: npm install -f
       - run: npm run build
       - run: npm run test
       - run: npm publish --access public
