@@ -1,7 +1,7 @@
 {
   "name": "mikoa",
   "author": "Francis Mwakatumbula",
-  "version":"1.0.6",
+  "version":"1.0.7",
   "description":"Tanzania Region, district and wards package for nodejs",
   "license": "MIT",
   "main": "dist/index.js",
@@ -45,10 +45,6 @@
       "limit": "10 KB"
     }
   ],
-  "dependencies": {
-    "json-find": "^2.0.8",
-    "lodash": "^4.17.21"
-  },
   "devDependencies": {  
     "@types/lodash": "^4.14.180",
     "@size-limit/preset-small-lib": "^7.0.8",
