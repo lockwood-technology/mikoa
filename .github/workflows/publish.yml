@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 14
           registry-url: https://registry.npmjs.org/
-      - run: npm install 
+      - run: npm cache --force clean && npm install --force node-sass
       - run: npm run build
       - run: npm run test
       - run: npm publish --access public
