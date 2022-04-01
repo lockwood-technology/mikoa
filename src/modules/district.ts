@@ -14,10 +14,9 @@ const districts =[{"id":"1","name":"ARUMERU","region_id":"1"},{"id":"2","name":"
    * @param {*} id 
    * @returns 
    */
-  export const id =(id:number)=> {
-    const district_id =id.toString()
+  export const id =(id:string)=> {
     return districts.find(function (district) {
-      return district.id ==district_id;
+      return district.id ==id;
     });
   }
 
@@ -26,10 +25,9 @@ const districts =[{"id":"1","name":"ARUMERU","region_id":"1"},{"id":"2","name":"
    * @param {*} id 
    * @returns 
    */
-  export const region_id = (id:number)=> {
-    const region_id =id.toString()
+  export const region = (id:string)=> {
     return districts.filter(function (district) {
-      return district.region_id ==region_id;
+      return district.region_id ==id;
     }).map((v: { id: string; name: string; }) => ({id:v.id,name:v.name}));
   }
 
@@ -39,7 +37,7 @@ const districts =[{"id":"1","name":"ARUMERU","region_id":"1"},{"id":"2","name":"
    * @returns 
    */
   export const name = (name:string)=> {
-    return districts.filter(function (district) {
+    return districts.find(function (district) {
       return district.name ==name;
-    }).map((v: { id: string; name: string; }) => ({id:v.id,name:v.name}));
+    });
   }

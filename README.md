@@ -136,7 +136,7 @@ How to get district
 ```js
 import { district } from 'mikoa'
 
-const districts =district.region_id(17)
+const districts =district.region(17)
 console.log('District by region', {districts})
 
 ```

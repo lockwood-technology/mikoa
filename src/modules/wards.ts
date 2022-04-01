@@ -13,11 +13,9 @@ export const all= ()=> {
    * @param {*} id 
    * @returns 
    */
-  export const id =(id:number)=> {
-    const ward_id =id.toString()
-  
+  export const id =(id:string)=> {
     return wards.find(function (ward) {
-      return ward.id ==ward_id;
+      return ward.id ==id;
     });
   
   } 
@@ -27,10 +25,9 @@ export const all= ()=> {
    * @param {*} id 
    * @returns 
    */
-  export const district_id= (id:number)=> {
-    const district_id =id.toString()
+  export const district= (id:string)=> {
     return wards.filter(function (ward) {
-      return ward.district_id ==district_id;
+      return ward.district_id ==id;
     }).map((v: { id: string; name: string; }) => ({id:v.id,name:v.name}));
   }
 
@@ -41,7 +38,7 @@ export const all= ()=> {
    */
   export const name = (name:string)=> {
   
-    return wards.filter(function (ward) {
+    return wards.find(function (ward) {
       return ward.name ==name;
-    }).map((v: { id: any; name: any; }) => ({id:v.id,name:v.name}));
+    });
   }

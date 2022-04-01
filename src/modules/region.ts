@@ -11,10 +11,19 @@ const regions =[{"id":"1","name":"ARUSHA"},{"id":"2","name":"DAR ES SALAAM"},{"i
   /**
    * Get region by id
    */
-   export const id= (id: number)=> {
-    const region_id=id.toString()
+   export const id= (id: string)=> {
     return regions.find(function (region) {
-      return region.id ==region_id;
+      return region.id ==id;
     });
   }
- 
+   /**
+   * Get region by name
+   * @param {*} name 
+   * @returns 
+   */
+    export const name = (name:string)=> {
+  
+      return regions.find(function (region) {
+        return region.name ==name;
+      });
+    }
